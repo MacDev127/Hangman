@@ -1,0 +1,27 @@
+.data-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user-app {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  min-width: 200px;
+  padding: 10px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid lightgray;
+}
+
+.container,
+.user-card {
+  border: 1px solid lightgrey;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
